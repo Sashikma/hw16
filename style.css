@@ -1,0 +1,101 @@
+body{
+    background-color: aliceblue;
+    width: 1200px;
+    padding: 0 147px;
+    margin:  0 auto;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+   
+
+.header-list{
+     display: flex;
+     justify-content: space-between;
+     margin: 0 auto ;
+     width: 555px;
+}
+.header{
+    padding-top: 51px;
+    padding-bottom: 92px;
+}
+.header-link{
+    color: #03A9F4;
+    text-transform: uppercase;
+
+}
+.header-link:hover{
+    color:#7D7D7D ;
+}
+.wrapper{
+    display: flex;
+}
+.card{
+    width: 420px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.wrapp-img{
+    margin-bottom: 62px;
+    display: flex;
+    align-items: end;
+}
+.name{
+    margin-bottom: 32px;
+}
+.title{
+    margin-bottom: 40px;
+}
+.container{
+    width: 1200px;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.btn{
+    /* margin-left: 509px;
+    width: 165px;
+height: 60px;
+flex-shrink: 0; */
+background-color: #ffffff;
+border: 1px solid #626262 ;
+padding: 20px 50px;
+color: #626262;
+font-size: 14px;
+font-weight: 700;
+cursor: pointer;
+
+ 
+}
+.button-wrap{
+    display: flex;
+    justify-content: center;
+    padding-top: 62px;
+    padding-bottom: 62px;
+}
+.btn:hover{
+    border: 1px solid #03A9F4;
+    color: #03A9F4;
+}
+span{
+    /* margin-top: 62px; */
+   color: #B4AD9E;
+   text-transform: uppercase;
+   font-size: 20px;
+   margin-bottom: 62px;
+}
+h2{
+    font-size: 30px;
+    color: #626262;
+    margin-bottom: 62px;
+}
+
